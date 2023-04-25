@@ -2,10 +2,10 @@
 
 export default function Contacto() {
   return (
-    <div classNameNameName="text-center mb-4 text-black">
-      <h1 classNameNameName="display-3">Contacto</h1>
+    <div className="text-center mb-4 text-black">
+      <h1 className="display-3">Contacto</h1>
       <br></br>
-      <hr classNameNameName="hr" />
+      <hr className="hr" />
       <span>Seleccione tipo de servicio</span>
       <div className="form-check">
         <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />

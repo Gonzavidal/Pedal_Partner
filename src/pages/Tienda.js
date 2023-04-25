@@ -1,10 +1,4 @@
-import Maps from '../assets/maps.jpg';
-import Mapa from "./Mapa";
-import {
-  MapContainer,
-  TileLayer,
-  useMap,
-} from 'https://cdn.esm.sh/react-leaflet'
+import Maps from './Maps';
 
 
 export default function Comunidad() {
@@ -12,12 +6,10 @@ export default function Comunidad() {
     <div className="container-fluid text-center position-relative d-inline-block">
       <h1>Encuentra tu tienda</h1>
       <hr className="hr" />
-      <div className="row">
-        <div className="col-6">
 
-        <div id="map">
-          <Mapa/>
-        </div>
+      <div className="row">
+        <div className="col-6 text-center ">
+        <Maps/>
         </div>
 
         <div className="col-6 px-4">
