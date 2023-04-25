@@ -1,4 +1,10 @@
 import Maps from '../assets/maps.jpg';
+import Mapa from "./Mapa";
+import {
+  MapContainer,
+  TileLayer,
+  useMap,
+} from 'https://cdn.esm.sh/react-leaflet'
 
 
 export default function Comunidad() {
@@ -9,9 +15,11 @@ export default function Comunidad() {
       <div className="row">
         <div className="col-6">
 
-          <img src={Maps} alt="mapa" id="regPhoto"/>
-          </div>
-        
+        <div id="map">
+          <Mapa/>
+        </div>
+        </div>
+
         <div className="col-6 px-4">
           {/*exclusive div 4 text inputs*/}
           <div className="row">

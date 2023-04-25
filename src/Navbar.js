@@ -29,9 +29,9 @@ export default function Navbar() {
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <FaBars class="fa-2x"/>
+              <FaBars class="fa-2x  text-white"/>
               </a>
-              <ul className="dropdown-menu text-white">
+              <ul className="dropdown-menu dropdown-menu-lg-end">
                 <li><a className="dropdown-item">Usuario</a></li>
                 <li><a className="dropdown-item">Mi Perfil</a></li>
                 <li><a className="dropdown-item" href="/ayuda">Ayuda</a></li>

@@ -1,25 +1,17 @@
-
 .site-title {
   font-size: 2rem;
 }
 
 #regPhoto {
-  position:relative;
+  position: relative;
   width: 38vw;
   height: 58vh;
   object-fit: cover;
 }
 
-/*
-.nav li.active {
-  background-color: #555;
+#map {
+  height: 180px;
 }
-
-.nav li:hover {
-  background-color: #777;
-}
-
-*/
 
 h1 {
   position: relative;
@@ -28,8 +20,6 @@ h1 {
   margin: 0px;
 }
 
-
-
 .dropdown-toggle::after {
-  display:none;
+  display: none;
 }
