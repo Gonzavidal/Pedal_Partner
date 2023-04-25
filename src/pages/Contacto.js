@@ -31,9 +31,9 @@ export default function Contacto() {
         <span className="input-group-text" id="inputGroup">Email Redactor</span>
         <input type="text" className="form-control" aria-label="searchInput" aria-describedby="inputGroup" />
       </div>
-      <div class="input-group">
-        <span class="input-group-text">Descripción</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div className="input-group">
+        <span className="input-group-text">Descripción</span>
+        <textarea className="form-control" aria-label="With textarea"></textarea>
       </div>
       <span>Destinatario Evento</span>
       <div className="form-check">
@@ -49,12 +49,12 @@ export default function Contacto() {
         </label>
       </div>
       <span>Adjuntar archivo</span>
-      <div class="input-group">
-        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" />
+      <div className="input-group">
+        <input type="file" className="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" />
       </div>
       <button
         type="submit"
-        class="btn btn-danger btn-send  pt-2 btn-block"
+        className="btn btn-danger btn-send  pt-2 btn-block"
       >
         Enviar
       </button>
